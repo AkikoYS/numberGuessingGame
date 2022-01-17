@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+
+
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+
+</head>
+
+<body>
+    <div class='wrapper'>
+        <h1>数当てゲーム</h1>
+        <p>0から100までの数字のうち、なにか数字を言ってみて。もし当たりじゃなければ、「大きすぎるよ」とか、「小さすぎるよ」というから、別の数字を言ってみて。ためせるのは１０回までだよ。
+        </p>
+
+
+        <div class="form">
+            <label for="guessField">数字を入れてね</label>
+            <input type="text" id="guessField" class="guessField" placeholder="guessField">
+            <input type="submit" value="当たるかな？" class="guessSubmit">
+        </div>
+
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

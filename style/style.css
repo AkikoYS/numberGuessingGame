@@ -1,0 +1,35 @@
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    text-align:center;
+   
+}
+
+p{
+    margin-bottom: 50px;
+}
+.form, .resultParas{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+.lastResult{
+    color: white;
+    padding: 3px;
+}
